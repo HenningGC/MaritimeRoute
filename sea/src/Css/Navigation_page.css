@@ -1,0 +1,142 @@
+.main-page {
+    display: flex;
+    height: 100vh;
+    background-color: #1E1D1D;
+  }
+  
+  .nv-content {
+    flex: 1;
+    padding: 20px 40px;
+    color: #ffffff;
+  }
+  
+  .nv-title {
+    font-size: 48px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .nv-map {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15%;
+  }
+  
+  .nv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .nv-port-container {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .nv-slider-container {
+    flex: 1;
+  }
+  
+  .nv-submit-container {
+    text-align: center;
+  }
+  
+  .nv-button {
+    width: auto;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nv-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .nv-textfield {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .nv-textfield .textfield-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .nv-textfield .textfield-input-container {
+    position: relative;
+  }
+  
+  .nv-textfield .textfield-input {
+    width: 80%;
+    padding: 15px;
+    background-color: transparent;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  .nv-textfield .textfield-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .nv-textfield .textfield-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+  }
+  
+  .nv-journey-priority {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .nv-journey-priority label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .nv-slider {
+    width: 100%;
+  }
+  
+  .nv-slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .nv-slider-labels span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nv-slider-labels span:first-child {
+    align-items: flex-start;
+  }
+  
+  .nv-slider-labels span:last-child {
+    align-items: flex-end;
+  }
+  
+  .nv-priority {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }

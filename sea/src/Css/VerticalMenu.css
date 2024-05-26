@@ -1,0 +1,62 @@
+.vertical-navigation {
+    background-color: #000;
+    width: 200px;
+    height: vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../Images/marinav.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  
+  .top-buttons {
+    flex-grow: 1;
+  }
+  
+  .bottom-buttons {
+    margin-top: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .menu-button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    color: #007bff;
+  }
+  
+  .menu-button.active {
+    color: #007bff;
+    text-decoration: underline;
+  }

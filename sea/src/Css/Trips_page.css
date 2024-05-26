@@ -1,0 +1,13 @@
+
+.trips-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .tp-content {
+    flex: 1;
+    background-image: url('../Images/Trips_page.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }

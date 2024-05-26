@@ -1,0 +1,13 @@
+
+.settings-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .st-content {
+    flex: 1;
+    background-image: url('../Images/Settings_page.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
